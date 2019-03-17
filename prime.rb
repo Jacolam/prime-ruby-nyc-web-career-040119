@@ -10,7 +10,7 @@ def prime?(number)
     end
   end
   
-  if factors.size == 2 
+  if factors.size == 2 #primes only have 2 factors 1 and the number itself
     true 
   else 
     false 
