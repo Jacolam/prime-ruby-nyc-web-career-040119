@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   
-  range_number = (1..number)
+  range_number = (1..number/2)
   factors = []
   
   range_number.each do |check|
