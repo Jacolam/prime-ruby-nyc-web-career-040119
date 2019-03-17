@@ -1,12 +1,12 @@
 # Add  code here!
-def prime?(integer)
+def prime?(number)
   
-  range_number = (1..integer)
+  range_number = (1..number)
   factors = []
   
-  range_number.each do |check_number|
-    if integer % check_number == 0 
-      factors << check_number
+  range_number.each do |check|
+    if number % check == 0 
+      factors << check
     end
   end
   
